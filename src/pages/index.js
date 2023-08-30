@@ -278,17 +278,17 @@ export default function Home() {
               <p className="text-2xl py-1 text-gray-800">Prisma</p>
               <p className="text-md py-1 text-gray-800">
                 Prisma was used in this project as our database used for storing
-                users, tweets, and other information related to tweets
+                users, tweets, and other information related to tweets.
               </p>
               <p className="text-2xl py-1 text-gray-800">Node</p>
               <p className="text-md py-1 text-gray-800">
                 Used for state management accross the app and allows user to
-                build cart before placeing their order
+                build cart before placeing their order.
               </p>
               <p className="text-2xl py-1 text-gray-800">AWS SMS</p>
               <p className="text-md py-1 text-gray-800">
                 Used for state management accross the app and allows user to
-                build cart before placeing their order
+                build cart before placeing their order.
               </p>
             </div>
           </div>
