@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import { AiFillLinkedin, AiFillGithub, SiIndeed } from "react-icons/ai";
 import useState from "react";
 export default function Home() {
@@ -60,46 +61,61 @@ export default function Home() {
           <section>
             <div className="grid grid-cols-3 pt-10">
               <div className="flex justify-center align-middle py-5">
-                <img
-                  className="h-20 w-30 pl-12"
-                  src="https://th.bing.com/th/id/OIP.G_njanbXycQWkfsmAmyvVQAAAA?pid=ImgDet&rs=1"
-                />
+                <picture>
+                  <img
+                    alt="vercel.svg"
+                    className="h-20 w-30 pl-12"
+                    src="/ReactNativelogo.jfif"
+                  />
+                </picture>
                 <p className="list-none text-2xl  align-middle pl-5 justify-center py-5  text-gray-600">
                   React Native
                 </p>
               </div>
               <div className="flex justify-center self-auto py-5">
-                <img
-                  className="h-20 w-20"
-                  src="https://th.bing.com/th/id/R.2395ce87da3f91b4cdb179ec21ce7768?rik=9742j907NCeMAw&pid=ImgRaw&r=0"
-                />
+                <picture>
+                  <img
+                    alt="vercel.svg"
+                    className="h-20 w-20"
+                    src="/JSLogo.png"
+                  />
+                </picture>
                 <p className="list-none text-2xl  align-middle pl-5 justify-center py-5  text-gray-600">
                   JavaScript
                 </p>
               </div>
               <div className="flex justify-center align-middle py-5">
-                <img
-                  className="h-20 w-20"
-                  src="https://play-lh.googleusercontent.com/algsmuhitlyCU_Yy3IU7-7KYIhCBwx5UJG4Bln-hygBjjlUVCiGo1y8W5JNqYm9WW3s"
-                />
+                <picture>
+                  <img
+                    alt="vercel.svg"
+                    className="h-20 w-20"
+                    src="/ExpoLogo.png"
+                  />
+                </picture>
                 <li className="list-none text-2xl  align-middle pl-5 justify-center py-5  text-gray-600">
                   Expo
                 </li>
               </div>
               <div className="flex justify-center align-middle py-5">
-                <img
-                  className="h-20 w-20"
-                  src=" https://th.bing.com/th/id/OIP.riAj889ZOePSATbx-bXnUQHaHa?pid=ImgDet&rs=1"
-                />
+                <picture>
+                  <img
+                    alt="vercel.svg"
+                    className="h-20 w-20"
+                    src="/FirebaseLogo.jfif"
+                  />
+                </picture>
                 <p className="list-none text-2xl  align-middle pl-5 justify-center py-5  text-gray-600">
                   Firebase
                 </p>
               </div>
               <div className="flex justify-center align-middle py-5">
-                <img
-                  className="h-20 w-20"
-                  src=" https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"
-                />
+                <picture>
+                  <img
+                    alt="vercel.svg"
+                    className="h-20 w-20"
+                    src="/TSLogo.png"
+                  />
+                </picture>
                 <p className="list-none text-2xl align-middle pl-5 justify-center py-5  text-gray-600">
                   TypeScript
                 </p>
@@ -245,7 +261,7 @@ export default function Home() {
                 <p className="text-2xl py-1 text-gray-800">MongoDB</p>
                 <p className="text-md py-1 text-gray-800">
                   MongoDB database was used in this project as our database and
-                  allows user's orders to be saved and retreived.
+                  allows users orders to be saved and retreived.
                 </p>
               </div>
             </div>
@@ -256,8 +272,8 @@ export default function Home() {
               </video>
               <p className="text-2xl py-1 text-gray-800">Express</p>
               <p className="text-md py-1 text-gray-800">
-                Express was used in this project to allow for custom API's to
-                our backend.
+                Express was used in this project to allow for custom APIs to our
+                backend.
               </p>
               <p className="text-2xl py-1 text-gray-800">Prisma</p>
               <p className="text-md py-1 text-gray-800">
