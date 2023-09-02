@@ -65,7 +65,7 @@ export default function Home() {
                   <img
                     alt="vercel.svg"
                     className="h-20 w-30 pl-12"
-                    src="/ReactNativelogo.jfif"
+                    src="ReactNativelogo.jfif"
                   />
                 </picture>
                 <p className="list-none text-2xl  align-middle pl-5 justify-center py-5  text-gray-600">
@@ -77,7 +77,7 @@ export default function Home() {
                   <img
                     alt="vercel.svg"
                     className="h-20 w-20"
-                    src="/JSLogo.png"
+                    src="JSLogo.png"
                   />
                 </picture>
                 <p className="list-none text-2xl  align-middle pl-5 justify-center py-5  text-gray-600">
@@ -89,7 +89,7 @@ export default function Home() {
                   <img
                     alt="vercel.svg"
                     className="h-20 w-20"
-                    src="/ExpoLogo.png"
+                    src="ExpoLogo.png"
                   />
                 </picture>
                 <li className="list-none text-2xl  align-middle pl-5 justify-center py-5  text-gray-600">
@@ -101,7 +101,7 @@ export default function Home() {
                   <img
                     alt="vercel.svg"
                     className="h-20 w-20"
-                    src="/FirebaseLogo.jfif"
+                    src="FirebaseLogo.jfif"
                   />
                 </picture>
                 <p className="list-none text-2xl  align-middle pl-5 justify-center py-5  text-gray-600">
@@ -113,7 +113,7 @@ export default function Home() {
                   <img
                     alt="vercel.svg"
                     className="h-20 w-20"
-                    src="/TSLogo.png"
+                    src="TSLogo.png"
                   />
                 </picture>
                 <p className="list-none text-2xl align-middle pl-5 justify-center py-5  text-gray-600">
