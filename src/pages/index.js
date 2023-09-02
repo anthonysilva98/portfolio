@@ -133,7 +133,7 @@ export default function Home() {
                 UPS Tracker Demo
               </p>
               <video autoPlay loop muted className="h-300">
-                <source src="/upsDemo.mp4" type="video/mp4" />
+                <source src="upsDemo.mp4" type="video/mp4" />
               </video>
               <p className="text-2xl py-1 text-gray-800">graphQL</p>
               <p className="text-md py-1 text-gray-800">
@@ -157,7 +157,7 @@ export default function Home() {
                   UberEats App Demo
                 </p>
                 <video autoPlay loop muted className="h-300">
-                  <source src="/UberEats.mp4" type="video/mp4" />
+                  <source src="UberEats.mp4" type="video/mp4" />
                 </video>
                 <p className="text-2xl py-1 text-gray-800">Google Places Api</p>
                 <p className="text-md py-1 text-gray-800">
@@ -190,7 +190,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <p className="text-2xl py-1 text-gray-800">Step Counter App</p>
               <video autoPlay loop muted className="h-300">
-                <source src="/StepCounterApp.mov" type="video/mp4" />
+                <source src="StepCounterApp.mov" type="video/mp4" />
               </video>
               <p className="text-2xl py-1 text-gray-800 flex-1">
                 Apple HealthKit
@@ -216,7 +216,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 justify-center">
               <p className="text-2xl py-1 text-gray-800">Uber Rideshare Demo</p>
               <video autoPlay loop muted className="h-300">
-                <source src="/UberDemo.mov" type="video/mp4" />
+                <source src="UberDemo.mov" type="video/mp4" />
               </video>
               <p className="text-2xl py-1 text-gray-800">Google Places API</p>
               <p className="text-md py-1 text-gray-800">
@@ -244,7 +244,7 @@ export default function Home() {
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <p className="text-2xl py-1 text-gray-800">Nike App Demo</p>
                 <video autoPlay loop muted className="h-300">
-                  <source src="/NikeAPP.mov" type="video/mp4" />
+                  <source src="NikeAPP.mov" type="video/mp4" />
                 </video>
                 <p className="text-2xl py-1 text-gray-800">Redux</p>
                 <p className="text-md py-1 text-gray-800">
@@ -268,7 +268,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <p className="text-2xl py-1 text-gray-800">Twitter Clone</p>
               <video autoPlay loop muted className="h-300">
-                <source src="/TwitterClone.mp4" type="video/mp4" />
+                <source src="TwitterClone.mp4" type="video/mp4" />
               </video>
               <p className="text-2xl py-1 text-gray-800">Express</p>
               <p className="text-md py-1 text-gray-800">
