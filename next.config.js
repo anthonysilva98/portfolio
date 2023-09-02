@@ -11,3 +11,6 @@ module.exports = {
     path: "",
   },
 };
+module.exports = {
+  basePath: "/index.js",
+};
