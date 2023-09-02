@@ -7,10 +7,10 @@ module.exports = withVideos();
 module.exports = nextConfig;
 module.exports = {
   images: {
-    loader: "akamai",
-    path: "",
+    unoptimized: true,
   },
 };
-module.exports = {
-  basePath: "/index.js",
-};
+// module.exports = {
+//   basePath: "/index.js",
+
+// };
