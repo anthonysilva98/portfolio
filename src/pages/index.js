@@ -50,14 +50,14 @@ export default function Home() {
               development using JavaScript and react native.
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+          {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <button onClick={() => goToWeb(Linkedin)}>
               <AiFillLinkedin />
             </button>
             <button onClick={() => goToWeb(GitHub)}>
               <AiFillGithub />
             </button>
-          </div>
+          </div> */}
         </section>
         <section>
           <h3 className="text-3xl py-10 justify-center flex  text-gray-600">
