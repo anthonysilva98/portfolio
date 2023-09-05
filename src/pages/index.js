@@ -8,7 +8,7 @@ export default function Home() {
   }
   // const [darkMode, setDarkMode] = useState(false);
   const Linkedin = "https://www.linkedin.com/in/anthony-silva-3424a4253/";
-  const GitHub = "https://github.com/anthonysilva98";
+  const GitHub = "https://github.com/anthonysilva98/";
   const Resume = "Anthony_Silva_Website_Resume.pdf";
   return (
     <div>
@@ -51,12 +51,22 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <button onClick={() => goToWeb(Linkedin)}>
-              <AiFillLinkedin />
-            </button>
-            <button onClick={() => goToWeb(GitHub)}>
-              <AiFillGithub />
-            </button>
+            <meta
+              http-equiv="refresh"
+              content="0; URL=https://www.linkedin.com/in/anthony-silva-3424a4253/"
+            >
+              <button onClick={() => goToWeb(Linkedin)}>
+                <AiFillLinkedin />
+              </button>
+            </meta>
+            <meta
+              http-equiv="refresh"
+              content="0; URL=https://github.com/anthonysilva98/"
+            >
+              <button onClick={() => goToWeb(GitHub)}>
+                <AiFillGithub />
+              </button>
+            </meta>
           </div>
         </section>
         <section>
