@@ -51,22 +51,12 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <meta
-              http-equiv="refresh"
-              content="0; URL=https://www.linkedin.com/in/anthony-silva-3424a4253/"
-            >
-              <button onClick={() => goToWeb(Linkedin)}>
-                <AiFillLinkedin />
-              </button>
-            </meta>
-            <meta
-              http-equiv="refresh"
-              content="0; URL=https://github.com/anthonysilva98/"
-            >
-              <button onClick={() => goToWeb(GitHub)}>
-                <AiFillGithub />
-              </button>
-            </meta>
+            <button onClick={() => goToWeb(Linkedin)}>
+              <AiFillLinkedin />
+            </button>
+            <button onClick={() => goToWeb(GitHub)}>
+              <AiFillGithub />
+            </button>
           </div>
         </section>
         <section>
