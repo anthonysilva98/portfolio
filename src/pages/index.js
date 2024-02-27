@@ -44,10 +44,10 @@ export default function Home() {
             <h2 className="text-5xl py-2 font-medium text-teal-600 md:text-6xl">
               Anthony Silva
             </h2>
-            <h3 className="text-2xl py-2 md:text-3xl"> Software developer</h3>
+            <h3 className="text-2xl py-2 md:text-3xl"> Software Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
               Full stack software developer that specializes in mobile
-              development using JavaScript and react native.
+              development using JavaScript and React Native.
             </p>
           </div>
           {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -64,12 +64,12 @@ export default function Home() {
             Tech Stack
           </h3>
           <section>
-            <div className="grid grid-cols-3 pt-10">
-              <div className="flex justify-center align-middle py-5">
+            <div className="pt-10 flex-wrap lg:flex gap-10 justify-center grid ">
+              <div className="flex justify-center align-middle py-5 ">
                 <picture>
                   <img
                     alt="vercel.svg"
-                    className="h-20 w-30 pl-12"
+                    className="h-20 w-30 pl-12 "
                     src="ReactNativelogo.jfif"
                   />
                 </picture>
@@ -89,17 +89,18 @@ export default function Home() {
                   JavaScript
                 </p>
               </div>
+
               <div className="flex justify-center align-middle py-5">
                 <picture>
                   <img
                     alt="vercel.svg"
                     className="h-20 w-20"
-                    src="ExpoLogo.png"
+                    src="TSLogo.png"
                   />
                 </picture>
-                <li className="list-none text-2xl  align-middle pl-5 justify-center py-5  text-gray-600">
-                  Expo
-                </li>
+                <p className="list-none text-2xl align-middle pl-5 justify-center py-5  text-gray-600">
+                  TypeScript
+                </p>
               </div>
               <div className="flex justify-center align-middle py-5">
                 <picture>
@@ -118,12 +119,12 @@ export default function Home() {
                   <img
                     alt="vercel.svg"
                     className="h-20 w-20"
-                    src="TSLogo.png"
+                    src="ExpoLogo.png"
                   />
                 </picture>
-                <p className="list-none text-2xl align-middle pl-5 justify-center py-5  text-gray-600">
-                  TypeScript
-                </p>
+                <li className="list-none text-2xl  align-middle pl-5 justify-center py-5  text-gray-600">
+                  Expo
+                </li>
               </div>
             </div>
             <div>
@@ -133,14 +134,14 @@ export default function Home() {
             </div>
           </section>
           <div className="lg:flex gap-10 justify-center grid ">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 justify-center">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 justify-center min-w-700">
               <p className="text-2xl py-1 text-gray-800 flex-1">
                 UPS Tracker Demo
               </p>
               <video autoPlay loop muted className="h-300">
                 <source src="upsDemo.mp4" type="video/mp4" />
               </video>
-              <p className="text-2xl py-1 text-gray-800">graphQL</p>
+              <p className="text-2xl py-1 text-black-800">graphQL</p>
               <p className="text-md py-1 text-gray-800">
                 Custom Graph QL backend that allows filtering, searching and
                 viewing of items that in a Firebase database.
@@ -150,7 +151,7 @@ export default function Home() {
                 Built out all custom components using TailwindCSS that allows
                 for easy creation and styling.
               </p>
-              <p className="text-2xl py-1 text-gray-800">FireBase</p>
+              <p className="text-2xl py-1 text-black-800">FireBase</p>
               <p className="text-md py-1 text-gray-800">
                 Using Firebase database, was able to store the data in JSON
                 format to allow for easy requests and data manipulation.
@@ -158,19 +159,21 @@ export default function Home() {
             </div>
             <div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <p className="text-2xl py-1 text-gray-800 flex-1">
+                <p className="text-2xl py-1 text-black-800 flex-1">
                   UberEats App Demo
                 </p>
                 <video autoPlay loop muted className="h-300">
                   <source src="UberEats.mp4" type="video/mp4" />
                 </video>
-                <p className="text-2xl py-1 text-gray-800">Google Places Api</p>
+                <p className="text-2xl py-1 text-black-800">
+                  Google Places Api
+                </p>
                 <p className="text-md py-1 text-gray-800">
                   Built out custom components that allow for a user to select
                   where they would like to go and render components on screen
                   based off of this decision.
                 </p>
-                <p className="text-2xl py-1 text-gray-800">FireBase</p>
+                <p className="text-2xl py-1 text-black-800">FireBase</p>
                 <p className="text-md py-1 text-gray-800">
                   Using Firebase Firstore, was able to store and show users
                   their orders that were created with the user interface.
@@ -179,13 +182,13 @@ export default function Home() {
                   showing their final order. Firebase backend that handles
                   orders that are sent out through the app */}
                 </p>
-                <p className="text-2xl py-1 text-gray-800">Yelp Api</p>
+                <p className="text-2xl py-1 text-black-800">Yelp Api</p>
                 <p className="text-md py-1 text-gray-800">
                   With integration of the Yelp API, I was able to display
                   information about the resturants queried from the google
                   places API.
                 </p>
-                <p className="text-2xl py-1 text-gray-800">Redux</p>
+                <p className="text-2xl py-1 text-black-800">Redux</p>
                 <p className="text-md py-1 text-gray-800">
                   Redux is used in this project for state management and allows
                   users to create order and push it to firebase backend
@@ -193,11 +196,11 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <p className="text-2xl py-1 text-gray-800">Step Counter App</p>
+              <p className="text-2xl py-1 text-black-800">Step Counter App</p>
               <video autoPlay loop muted className="h-300">
                 <source src="StepCounterApp.mov" type="video/mp4" />
               </video>
-              <p className="text-2xl py-1 text-gray-800 flex-1">
+              <p className="text-2xl py-1 text-black-800 flex-1">
                 Apple HealthKit
               </p>
               <p className="text-md py-1 text-gray-800">
@@ -205,7 +208,7 @@ export default function Home() {
                 provided by Apple devices that shows health information.
               </p>
               <p></p>
-              <p className="text-2xl py-1 text-gray-800">
+              <p className="text-2xl py-1 text-black-800">
                 React Native Reanimated
               </p>
               <p className="text-md py-1 text-gray-800">
@@ -219,11 +222,13 @@ export default function Home() {
         <section>
           <div className="lg:flex gap-10 justify-center grid">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 justify-center">
-              <p className="text-2xl py-1 text-gray-800">Uber Rideshare Demo</p>
+              <p className="text-2xl py-1 text-black-800">
+                Uber Rideshare Demo
+              </p>
               <video autoPlay loop muted className="h-300">
                 <source src="UberDemo.mov" type="video/mp4" />
               </video>
-              <p className="text-2xl py-1 text-gray-800">Google Places API</p>
+              <p className="text-2xl py-1 text-black-800">Google Places API</p>
               <p className="text-md py-1 text-gray-800">
                 Google Places API used for getting places and autofilling for
                 better user experience
@@ -232,14 +237,14 @@ export default function Home() {
               <p className="text-md py-1 text-gray-800">
                 Allows for easy and fast paced components to be built
               </p>
-              <p className="text-2xl py-1 text-gray-800">
+              <p className="text-2xl py-1 text-black-800">
                 Google Distance Matrix
               </p>
               <p className="text-md py-1 text-gray-800">
                 Google Distance matrix allows for calculating how long a ride
                 will take along with how much that ride should cost
               </p>
-              <p className="text-2xl py-1 text-gray-800">Redux</p>
+              <p className="text-2xl py-1 text-black-800">Redux</p>
               <p className="text-md py-1 text-gray-800">
                 Used for state management and allows for users to request rides
                 and set destinations start points
@@ -247,23 +252,23 @@ export default function Home() {
             </div>
             <div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <p className="text-2xl py-1 text-gray-800">Nike App Demo</p>
+                <p className="text-2xl py-1 text-black-800">Nike App Demo</p>
                 <video autoPlay loop muted className="h-300">
                   <source src="NikeAPP.mov" type="video/mp4" />
                 </video>
-                <p className="text-2xl py-1 text-gray-800">Redux</p>
+                <p className="text-2xl py-1 text-black-800">Redux</p>
                 <p className="text-md py-1 text-gray-800">
                   Used for state management accross the app and allows user to
                   build cart before placeing their order
                 </p>
-                <p className="text-2xl py-1 text-gray-800">
+                <p className="text-2xl py-1 text-black-800">
                   Custom Restful Api
                 </p>
                 <p className="text-md py-1 text-gray-800">
                   Custom Restful API that uses Node.js and Express to make
                   requests to our backend.
                 </p>
-                <p className="text-2xl py-1 text-gray-800">MongoDB</p>
+                <p className="text-2xl py-1 text-black-800">MongoDB</p>
                 <p className="text-md py-1 text-gray-800">
                   MongoDB database was used in this project as our database and
                   allows users orders to be saved and retreived.
@@ -271,26 +276,26 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <p className="text-2xl py-1 text-gray-800">Twitter Clone</p>
+              <p className="text-2xl py-1 text-black-800">Twitter Clone</p>
               <video autoPlay loop muted className="h-300">
                 <source src="TwitterClone.mp4" type="video/mp4" />
               </video>
-              <p className="text-2xl py-1 text-gray-800">Express</p>
+              <p className="text-2xl py-1 text-black-800">Express</p>
               <p className="text-md py-1 text-gray-800">
                 Express was used in this project to allow for custom APIs to our
                 backend.
               </p>
-              <p className="text-2xl py-1 text-gray-800">Prisma</p>
+              <p className="text-2xl py-1 text-black-800">Prisma</p>
               <p className="text-md py-1 text-gray-800">
                 Prisma was used in this project as our database used for storing
                 users, tweets, and other information related to tweets.
               </p>
-              <p className="text-2xl py-1 text-gray-800">Node</p>
+              <p className="text-2xl py-1 text-black-800">Node</p>
               <p className="text-md py-1 text-gray-800">
                 Used for state management accross the app and allows user to
                 build cart before placeing their order.
               </p>
-              <p className="text-2xl py-1 text-gray-800">AWS SMS</p>
+              <p className="text-2xl py-1 text-black-800">AWS SMS</p>
               <p className="text-md py-1 text-gray-800">
                 Used for state management accross the app and allows user to
                 build cart before placeing their order.
