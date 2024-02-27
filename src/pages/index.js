@@ -300,7 +300,6 @@ export default function Home() {
                 Used for state management accross the app and allows user to
                 build cart before placeing their order.
               </p>
-              s
             </div>
           </div>
         </section>
