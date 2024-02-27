@@ -138,7 +138,7 @@ export default function Home() {
               <p className="text-2xl py-1 text-gray-800 flex-1">
                 UPS Tracker Demo
               </p>
-              <video autoPlay loop muted className="h-300">
+              <video playsInline autoPlay loop muted className="h-300">
                 <source src="upsDemo.mp4" type="video/mp4" />
               </video>
               <p className="text-2xl py-1 text-black-800">graphQL</p>
@@ -162,7 +162,7 @@ export default function Home() {
                 <p className="text-2xl py-1 text-black-800 flex-1">
                   UberEats App Demo
                 </p>
-                <video autoPlay loop muted className="h-300">
+                <video playsInline autoPlay loop muted className="h-300">
                   <source src="UberEats.mp4" type="video/mp4" />
                 </video>
                 <p className="text-2xl py-1 text-black-800">
@@ -197,7 +197,7 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <p className="text-2xl py-1 text-black-800">Step Counter App</p>
-              <video autoPlay loop muted className="h-300">
+              <video playsInline autoPlay loop muted className="h-300">
                 <source src="StepCounterApp.mov" type="video/mp4" />
               </video>
               <p className="text-2xl py-1 text-black-800 flex-1">
@@ -225,7 +225,7 @@ export default function Home() {
               <p className="text-2xl py-1 text-black-800">
                 Uber Rideshare Demo
               </p>
-              <video autoPlay loop muted className="h-300">
+              <video playsInline autoPlay loop muted className="h-300">
                 <source src="UberDemo.mov" type="video/mp4" />
               </video>
               <p className="text-2xl py-1 text-black-800">Google Places API</p>
@@ -253,7 +253,7 @@ export default function Home() {
             <div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <p className="text-2xl py-1 text-black-800">Nike App Demo</p>
-                <video autoPlay loop muted className="h-300">
+                <video playsInline autoPlay loop muted className="h-300">
                   <source src="NikeAPP.mov" type="video/mp4" />
                 </video>
                 <p className="text-2xl py-1 text-black-800">Redux</p>
@@ -277,7 +277,7 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <p className="text-2xl py-1 text-black-800">Twitter Clone</p>
-              <video autoPlay loop muted className="h-300">
+              <video playsInline autoPlay loop muted className="h-300">
                 <source src="TwitterClone.mp4" type="video/mp4" />
               </video>
               <p className="text-2xl py-1 text-black-800">Express</p>
@@ -300,6 +300,7 @@ export default function Home() {
                 Used for state management accross the app and allows user to
                 build cart before placeing their order.
               </p>
+              s
             </div>
           </div>
         </section>
