@@ -46,8 +46,10 @@ export default function Home() {
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl"> Software Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
-              Full stack software developer that specializes in mobile
-              development using JavaScript and React Native.
+              Full Stack Software Developer with a focus on mobile and web
+              development. 5 years of experience developing mobile apps, with 2
+              years of professional experience building out websites and mobile
+              application for Project Centerline.
             </p>
           </div>
           {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -65,7 +67,7 @@ export default function Home() {
           </h3>
           <section>
             <div className="pt-10 flex-wrap lg:flex gap-10 justify-center grid ">
-              <div className="flex justify-center align-middle py-5 ">
+              <div className="flex justify-start align-middle py-5 ">
                 <picture>
                   <img
                     alt="vercel.svg"
@@ -77,7 +79,31 @@ export default function Home() {
                   React Native
                 </p>
               </div>
-              <div className="flex justify-center self-auto py-5">
+              <div className="flex justify-start align-middle py-5 ">
+                <picture>
+                  <img
+                    alt="vercel.svg"
+                    className="h-20 w-30 pl-12 "
+                    src="ReactNativelogo.jfif"
+                  />
+                </picture>
+                <p className="list-none text-2xl  align-middle pl-5 justify-center py-5  text-gray-600">
+                  React
+                </p>
+              </div>
+              <div className="flex justify-start align-middle py-5 ">
+                <picture>
+                  <img
+                    alt="vercel.svg"
+                    className="h-20 w-30 pl-12 "
+                    src="GQL.png"
+                  />
+                </picture>
+                <p className="list-none text-2xl  align-middle pl-5 justify-center py-5  text-gray-600">
+                  GraphQL
+                </p>
+              </div>
+              <div className="flex justify-start self-auto py-5">
                 <picture>
                   <img
                     alt="vercel.svg"
@@ -90,7 +116,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="flex justify-center align-middle py-5">
+              <div className="flex justify-start align-middle py-5">
                 <picture>
                   <img
                     alt="vercel.svg"
@@ -102,7 +128,7 @@ export default function Home() {
                   TypeScript
                 </p>
               </div>
-              <div className="flex justify-center align-middle py-5">
+              <div className="flex justify-start align-middle py-5">
                 <picture>
                   <img
                     alt="vercel.svg"
@@ -114,7 +140,7 @@ export default function Home() {
                   Firebase
                 </p>
               </div>
-              <div className="flex justify-center align-middle py-5">
+              <div className="flex justify-start align-middle py-5">
                 <picture>
                   <img
                     alt="vercel.svg"
@@ -141,20 +167,23 @@ export default function Home() {
               <video playsInline autoPlay loop muted className="h-300">
                 <source src="upsDemo.mp4" type="video/mp4" />
               </video>
-              <p className="text-2xl py-1 text-black-800">graphQL</p>
+              <p className="text-2xl py-1 text-black-800">GraphQL</p>
               <p className="text-md py-1 text-gray-800">
-                Custom Graph QL backend that allows filtering, searching and
-                viewing of items that in a Firebase database.
+                This project uses a custom GraphQL backend that allows for
+                filtering, searching and viewing of items that are stored in a
+                firebase database.
               </p>
               <p className="text-2xl py-1 text-black-800">TailwindCSS</p>
               <p className="text-md py-1 text-gray-800">
-                Built out all custom components using TailwindCSS that allows
-                for easy creation and styling.
+                This project leverages TailwindCSS to allow inline styling of
+                components, and help familiarize common design practices and
+                syntax.
               </p>
               <p className="text-2xl py-1 text-black-800">FireBase</p>
               <p className="text-md py-1 text-gray-800">
-                Using Firebase database, was able to store the data in JSON
-                format to allow for easy requests and data manipulation.
+                This project uses Firebase to store our data in the backend, and
+                allows us to make requests to make GQL requests to grab specific
+                data that pertains to individuals.
               </p>
             </div>
             <div>
@@ -169,14 +198,16 @@ export default function Home() {
                   Google Places Api
                 </p>
                 <p className="text-md py-1 text-gray-800">
-                  Built out custom components that allow for a user to select
-                  where they would like to go and render components on screen
-                  based off of this decision.
+                  This project leverages the Google Places API to allow users to
+                  search for restaurants and places that they would like to
+                  order from.
                 </p>
                 <p className="text-2xl py-1 text-black-800">FireBase</p>
                 <p className="text-md py-1 text-gray-800">
-                  Using Firebase Firstore, was able to store and show users
-                  their orders that were created with the user interface.
+                  This project uses Firebase Firestore as our backend to this
+                  project. This handled orders that were created by users and
+                  allowed for an easy out of the box solution to store our
+                  information.
                   {/* Using Firebase Firestore, was able to allow users to create an
                   order which would be sent to Firestore to be retreived when
                   showing their final order. Firebase backend that handles
@@ -184,14 +215,13 @@ export default function Home() {
                 </p>
                 <p className="text-2xl py-1 text-black-800">Yelp Api</p>
                 <p className="text-md py-1 text-gray-800">
-                  With integration of the Yelp API, I was able to display
-                  information about the resturants queried from the google
-                  places API.
+                  This project uses the Yelp API to display real restaurant data
+                  that we get from our Google Places API.
                 </p>
                 <p className="text-2xl py-1 text-black-800">Redux</p>
                 <p className="text-md py-1 text-gray-800">
-                  Redux is used in this project for state management and allows
-                  users to create order and push it to firebase backend
+                  Redux was used in this project and allowed for global state
+                  management when dealing with creating orders
                 </p>
               </div>
             </div>
@@ -204,17 +234,18 @@ export default function Home() {
                 Apple HealthKit
               </p>
               <p className="text-md py-1 text-gray-800">
-                Integrating with Apple HealthKit, I was able to get information
-                provided by Apple devices that shows health information.
+                This project uses Apple Healthkit to interface with existing
+                native modules from the health app, and render them using react
+                native components.
               </p>
               <p></p>
               <p className="text-2xl py-1 text-black-800">
                 React Native Reanimated
               </p>
               <p className="text-md py-1 text-gray-800">
-                Using React Native Reanimated, I was able to create custom
-                components that drive the animations that are used to show users
-                goal completion
+                React Native Reanimated is used in this project to display
+                animated graphics, like the circle rendering based off of a
+                daily step goal.
               </p>
             </div>
           </div>
